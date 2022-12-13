@@ -108,4 +108,5 @@ class building_type(models.Model):
                     planet_id.fabricas += 1    
             else:
                 raise ValidationError("Fondos Insuficientes")
+                print("genial")
 
